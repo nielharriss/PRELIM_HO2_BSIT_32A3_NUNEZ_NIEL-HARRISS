@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+header {
+  background-image: url("bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header .logo {
+  max-height: 300px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+header h1 {
+  font-family: "Press Start 2P", cursive;
+  background-color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  letter-spacing: 2px;
+  color: rgb(94, 94, 94);
+  border-radius: 5px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #007bff; /* Blue background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 180px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff0000 !important;
+}
+
+/* Section Styles */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Home Section */
+#home {
+  text-align: center;
+}
+
+/* About Section */
+#about h2,
+#about h3 {
+  color: #007bff;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form .form-group label {
+  font-weight: bold;
+}
+
+form button {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+  color: #007bff;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+main {
+  background-image: url("background-cards-flying.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 0;
+}
